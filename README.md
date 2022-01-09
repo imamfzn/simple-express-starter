@@ -26,8 +26,7 @@ Open `http://localhost:3000` on your browser, there should be a response like:
 
 Build image:
 ```bash
-
-docker build -t simple-express-starter:v0.1.0
+docker build -t simple-express-starter:v0.1.0 .
 ````
 
 Run container:
