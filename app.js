@@ -40,7 +40,7 @@ app.listen(PORT, function () {
 app.get('/', function (req, res) {
   res.status(200).json({
     data: {
-      message: "Hello :)"
+      message: "Hello World:)"
     }
   });
 });
